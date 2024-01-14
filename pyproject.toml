@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "repl_nix_Twitch-Channel-Points-Miner-v2"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<rdavydov>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.2.2"
+python-dateutil = "^2.8.2"
+colorama = "^0.4.6"
+irc = "^20.1.0"
+millify = "^0.1.1"
+pandas = "^1.5.1"
+requests = "^2.28.1"
+emoji = "^2.2.0"
+websocket = "^0.2.1"
+websocket-client = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
